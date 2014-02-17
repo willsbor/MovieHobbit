@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 thinkermobile. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <TMGeneral/TMGeneral.h>
 
-@interface MHViewController : UIViewController
+@interface MHViewController : TMViewController
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E53AA6D6BE24769B9E80A48 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3A7DBA986F4DA2B15F4D6C /* libPods.a */; };
 		AB77853418B1B89C0080C9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB77853318B1B89C0080C9D2 /* Foundation.framework */; };
 		AB77853618B1B89C0080C9D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB77853518B1B89C0080C9D2 /* CoreGraphics.framework */; };
 		AB77853818B1B89C0080C9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB77853718B1B89C0080C9D2 /* UIKit.framework */; };
@@ -21,6 +22,11 @@
 		AB77855518B1B89C0080C9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB77853718B1B89C0080C9D2 /* UIKit.framework */; };
 		AB77855D18B1B89C0080C9D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB77855B18B1B89C0080C9D2 /* InfoPlist.strings */; };
 		AB77855F18B1B89C0080C9D2 /* MovieHobbitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB77855E18B1B89C0080C9D2 /* MovieHobbitTests.m */; };
+		ABC4A9B518B1C07B00EAA06E /* MHGlobalVar.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4A9B418B1C07B00EAA06E /* MHGlobalVar.m */; };
+		ABC4A9B818B1C09600EAA06E /* MHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4A9B718B1C09600EAA06E /* MHDataManager.m */; };
+		ABC4A9BB18B1C0A700EAA06E /* MHDataManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABC4A9B918B1C0A700EAA06E /* MHDataManager.xcdatamodeld */; };
+		ABC4A9C418B1C5A700EAA06E /* MovieItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4A9C318B1C5A700EAA06E /* MovieItem.m */; };
+		ABC4A9C718B1C72200EAA06E /* MHMovieItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC4A9C618B1C72200EAA06E /* MHMovieItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D3A7DBA986F4DA2B15F4D6C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB77853018B1B89C0080C9D2 /* MovieHobbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieHobbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB77853318B1B89C0080C9D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB77853518B1B89C0080C9D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +60,16 @@
 		AB77855A18B1B89C0080C9D2 /* MovieHobbitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MovieHobbitTests-Info.plist"; sourceTree = "<group>"; };
 		AB77855C18B1B89C0080C9D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB77855E18B1B89C0080C9D2 /* MovieHobbitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieHobbitTests.m; sourceTree = "<group>"; };
+		ABC4A9B318B1C07B00EAA06E /* MHGlobalVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHGlobalVar.h; sourceTree = "<group>"; };
+		ABC4A9B418B1C07B00EAA06E /* MHGlobalVar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHGlobalVar.m; sourceTree = "<group>"; };
+		ABC4A9B618B1C09600EAA06E /* MHDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDataManager.h; sourceTree = "<group>"; };
+		ABC4A9B718B1C09600EAA06E /* MHDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDataManager.m; sourceTree = "<group>"; };
+		ABC4A9BA18B1C0A700EAA06E /* MHDataManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MHDataManager.xcdatamodel; sourceTree = "<group>"; };
+		ABC4A9C218B1C5A700EAA06E /* MovieItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieItem.h; sourceTree = "<group>"; };
+		ABC4A9C318B1C5A700EAA06E /* MovieItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieItem.m; sourceTree = "<group>"; };
+		ABC4A9C518B1C72200EAA06E /* MHMovieItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHMovieItemCell.h; sourceTree = "<group>"; };
+		ABC4A9C618B1C72200EAA06E /* MHMovieItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHMovieItemCell.m; sourceTree = "<group>"; };
+		CAF8A3E33FD542E7B9E9F88A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +80,7 @@
 				AB77853618B1B89C0080C9D2 /* CoreGraphics.framework in Frameworks */,
 				AB77853818B1B89C0080C9D2 /* UIKit.framework in Frameworks */,
 				AB77853418B1B89C0080C9D2 /* Foundation.framework in Frameworks */,
+				1E53AA6D6BE24769B9E80A48 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 				AB77855818B1B89C0080C9D2 /* MovieHobbitTests */,
 				AB77853218B1B89C0080C9D2 /* Frameworks */,
 				AB77853118B1B89C0080C9D2 /* Products */,
+				CAF8A3E33FD542E7B9E9F88A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,7 @@
 				AB77853518B1B89C0080C9D2 /* CoreGraphics.framework */,
 				AB77853718B1B89C0080C9D2 /* UIKit.framework */,
 				AB77855218B1B89C0080C9D2 /* XCTest.framework */,
+				2D3A7DBA986F4DA2B15F4D6C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +132,7 @@
 		AB77853918B1B89C0080C9D2 /* MovieHobbit */ = {
 			isa = PBXGroup;
 			children = (
+				ABC4A9B218B1C05F00EAA06E /* Model */,
 				AB77854218B1B89C0080C9D2 /* MHAppDelegate.h */,
 				AB77854318B1B89C0080C9D2 /* MHAppDelegate.m */,
 				AB77854518B1B89C0080C9D2 /* Main.storyboard */,
@@ -119,6 +140,8 @@
 				AB77854918B1B89C0080C9D2 /* MHViewController.m */,
 				AB77854B18B1B89C0080C9D2 /* Images.xcassets */,
 				AB77853A18B1B89C0080C9D2 /* Supporting Files */,
+				ABC4A9C518B1C72200EAA06E /* MHMovieItemCell.h */,
+				ABC4A9C618B1C72200EAA06E /* MHMovieItemCell.m */,
 			);
 			path = MovieHobbit;
 			sourceTree = "<group>";
@@ -152,6 +175,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABC4A9B218B1C05F00EAA06E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC4A9B318B1C07B00EAA06E /* MHGlobalVar.h */,
+				ABC4A9B418B1C07B00EAA06E /* MHGlobalVar.m */,
+				ABC4A9B618B1C09600EAA06E /* MHDataManager.h */,
+				ABC4A9B718B1C09600EAA06E /* MHDataManager.m */,
+				ABC4A9B918B1C0A700EAA06E /* MHDataManager.xcdatamodeld */,
+				ABC4A9C218B1C5A700EAA06E /* MovieItem.h */,
+				ABC4A9C318B1C5A700EAA06E /* MovieItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB77856218B1B89C0080C9D2 /* Build configuration list for PBXNativeTarget "MovieHobbit" */;
 			buildPhases = (
+				92376AE66B6D4972B6235682 /* Check Pods Manifest.lock */,
 				AB77852C18B1B89C0080C9D2 /* Sources */,
 				AB77852D18B1B89C0080C9D2 /* Frameworks */,
 				AB77852E18B1B89C0080C9D2 /* Resources */,
+				A6662DC842954E90AA78B9F5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,14 +284,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92376AE66B6D4972B6235682 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A6662DC842954E90AA78B9F5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB77852C18B1B89C0080C9D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC4A9C718B1C72200EAA06E /* MHMovieItemCell.m in Sources */,
 				AB77854018B1B89C0080C9D2 /* main.m in Sources */,
 				AB77854A18B1B89C0080C9D2 /* MHViewController.m in Sources */,
+				ABC4A9BB18B1C0A700EAA06E /* MHDataManager.xcdatamodeld in Sources */,
+				ABC4A9B818B1C09600EAA06E /* MHDataManager.m in Sources */,
+				ABC4A9C418B1C5A700EAA06E /* MovieItem.m in Sources */,
 				AB77854418B1B89C0080C9D2 /* MHAppDelegate.m in Sources */,
+				ABC4A9B518B1C07B00EAA06E /* MHGlobalVar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +453,7 @@
 		};
 		AB77856318B1B89C0080C9D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF8A3E33FD542E7B9E9F88A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +467,7 @@
 		};
 		AB77856418B1B89C0080C9D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF8A3E33FD542E7B9E9F88A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +540,7 @@
 				AB77856418B1B89C0080C9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB77856518B1B89C0080C9D2 /* Build configuration list for PBXNativeTarget "MovieHobbitTests" */ = {
 			isa = XCConfigurationList;
@@ -469,8 +549,22 @@
 				AB77856718B1B89C0080C9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABC4A9B918B1C0A700EAA06E /* MHDataManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABC4A9BA18B1C0A700EAA06E /* MHDataManager.xcdatamodel */,
+			);
+			currentVersion = ABC4A9BA18B1C0A700EAA06E /* MHDataManager.xcdatamodel */;
+			path = MHDataManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB77852818B1B89C0080C9D2 /* Project object */;
 }

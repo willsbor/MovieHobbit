@@ -7,12 +7,23 @@
 //
 
 #import "MHAppDelegate.h"
+#import <AFNetworking/AFNetworking.h>
+#import <TMGeneral/TMGeneral.h>
 
 @implementation MHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    LoggerSetOptions(LoggerGetDefaultLogger(), kLoggerOption_LogToConsole);
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    
+    /// DB setting
+    [TMDataManager setAppName:tmStringFromMD5(@"12345")];
+
+    
+    
     return YES;
 }
 							
